@@ -1,0 +1,1602 @@
+header#top {
+  width: 100%;
+  height: 2.65625;
+  background-color: #202020;
+}
+header#top div.inner {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+header#top div.inner h1.logo {
+  border-left: 1px solid #393939;
+  border-right: 1px solid #393939;
+  width: 36.458333vw;
+  height: 100%;
+  position: relative;
+}
+header#top div.inner h1.logo span a{
+  font-size: 0;
+  display: block;
+  width: 6.77083333vw;
+  position: absolute;
+  top: 0;
+  left: calc(100% / 2 - 3.38541666vw);
+}
+
+header#top div.inner div.left{
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  border-right: 1px solid #393939;
+  border-left: 1px solid #393939;
+  width: 8.8541666vw;
+  height: 2.65625vw;
+  font-size: 0.625vw;
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 0.520833333vw;
+  padding-right: 0.520833333vw;
+  
+
+}
+header#top div.inner div.left> a img{
+  margin-top: 0.83333333vw;
+  width: 1.041666666vw;
+  height: 1.041666666vw;
+}
+header#top div.inner div.left >a.text{
+  display: block;
+  margin-top: 0.98958333vw;
+}
+header#top div.inner div.left >a.text02{
+  display: block;
+  margin-top: 0.98958333vw;
+}
+header#top div.inner div.left >a.text::after{
+  content: "";
+  display: block;
+  position: absolute;
+  top: 1.0416666vw;
+  right:calc(100% / 3 );
+  border-left: 2px solid #aaa;
+  height: 0.625vw;
+ 
+  
+}
+header#top div.inner div.left >a {
+  text-align: center;
+  color: white;
+  height: 100%;
+
+}
+header#top div.inner div.container02{
+  height: 2.65625vw;
+  border-left: 1px solid #393939;
+  display: flex;
+  padding-left: 0.52083333vw;
+  padding-right: 0.52083333vw;
+}
+header#top div.inner div.container02 >a.marvel {
+  display: flex;
+  flex-direction: column;
+  width: 6.9791666vw;
+  color:white;
+  font-size: 0.625vw;
+  margin-top: 0.520833333vw;
+  margin-bottom: 0.520833333vw;
+  line-height: 1.5;
+}
+header#top div.inner div.container02 > a img{
+  position: relative;
+  left: 0.26041666vw;
+  margin-top: 0.72916666vw;
+  width: 1.14583333vw;
+  height: 1.30208333vw;
+}
+header#top div.inner div.container02 > a span.subscribe {
+  color: white;
+  font-size: 0.416666666vw;
+}
+header#top div.inner div.container02 >a.search {
+  color: white;
+  width: 2.65625vw;
+  height: 2.65625vw;
+  font-size: 0;
+  border-left: 1px solid #393939;
+  border-right: 1px solid #393939;
+
+}
+header#top div.inner div.container02 >a.search span{
+  margin-top: 0.729166666vw;
+}
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.25vw;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+header#top div.inner02{
+ background-color: #202020;
+ width: 100%;
+ height: 2.08333333vw;
+ border: 1px solid #393939;
+ padding-left: 31.25vw;
+ padding-right: 33.8541666666vw;
+ box-sizing: border-box;
+ 
+}
+header#top div.inner02 ul{
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  
+}
+header#top div.inner02>ul>li{
+/*!  */
+}
+header#top div.inner02 li::after{
+  content: "";
+  display: block;
+  border-bottom: 2px solid red;
+  position: relative;
+  transform: translateY(0.15625vw) scaleX(0);
+  transition: all 0.5s;
+  
+}
+header#top div.inner02 li:hover::after{
+  display: block;
+  transform: translateY(0.15625vw) scaleX(1);
+  
+}
+
+header#top div.inner02 li a{
+  color: white;
+  font-size: 0.57291666vw;
+  font-weight: 900;
+  display: block;
+}
+header#top div.inner02>ul>li>a{
+padding-bottom: 1.25vw; 
+transform: translateY(0.416666666666666vw);
+}  
+
+/*header#top div.inner02 ul li:nth-child(1):hover >div.video{
+  display: flex;
+}*/
+.headershow{
+  display: flex !important;
+}
+#top div.inner02 ul li div.video {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.13541666666666vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 13.02083333333333vw;
+  padding-right: 13.02083333333333vw;
+  box-sizing: border-box;
+}
+#top div.inner02 ul li div.video div.video01 {
+  display: flex;
+  justify-content: space-between;
+  width: 15.625vw;
+  margin-top: 1.04166666666666vw;
+}
+#top div.inner02 ul li div.video div.video01 a {
+  color:black;
+  font-weight: 900;
+}
+#top div.inner02 ul li div.video div.video01 a:hover{
+  color: red;
+}
+#top div.inner02 ul li div.video h2.videoh2 {
+  margin-top: 1.04166666666666vw;
+  margin-bottom: 1.04166666666666vw;
+}
+#top div.inner02 ul li div.video h2.videoh2 a {
+  color:black;
+  font-size: 1.35416666666666vw;
+}
+#top div.inner02 ul li div.video div.video02 {
+  width: 70%;
+  height: 26.0416666666666vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.64583333333333vw;
+}
+#top div.inner02 ul li div.video div.video02 div.interview01 {
+  width: 11.40625vw;
+  height: 12.7604166666666vw;
+  display: flex;
+  flex-direction: column;
+}
+#top div.inner02 ul li div.video div.video02 div.interview01 a.thorvideo01 {
+  display: block;
+  width: 11.40625vw;
+  height: 7.8125vw;
+  background-image: url(../img/thorinterview01.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#top div.inner02 ul li div.video div.video02 div.interview02 {
+    width: 11.40625vw;
+  height: 7.03125vw;
+  
+}
+#top div.inner02 ul li div.video div.video02 div.interview02 a.thorvideo02 {
+   display: block;
+  width: 11.40625vw;
+  height: 7.8125vw;
+  background-image: url(../img/thorinterview02.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#top div.inner02 ul li div.video div.video02 div.interview03 {
+    width: 11.40625vw;
+  height: 7.03125vw;
+}
+#top div.inner02 ul li div.video div.video02 div.interview03 a.thorvideo03 {
+   display: block;
+  width: 11.40625vw;
+  height: 7.8125vw;
+  background-image: url(../img/thorinterview03.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#top div.inner02 ul li div.video div.video02 div.interview04 {
+    width: 11.40625vw;
+  height: 7.03125vw;
+}
+#top div.inner02 ul li div.video div.video02 div.interview04 a.thorvideo04 {
+   display: block;
+  width: 11.40625vw;
+  height: 7.8125vw;
+  background-image: url(../img/thorinterview04.PNG);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#top div.inner02 ul li div.video div.video02 span {
+  color:gray;
+  font-weight: 900;
+  font-size: 0.729166666666666vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.520833333333333vw;
+}
+#top div.inner02 ul li div.video div.video02 a {
+  width: 9.869791666666667vw;
+  color:black;
+  font-size: 0.72916666666666vw;
+}
+#top div.inner02 ul li div.video div.video02 a:hover{
+  color:red;
+}
+#top div.inner02 ul li div.video div.video03 {
+  width: 26.0416666666666vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.04166666666666vw;
+  margin-top: 3.125vw;
+  position: absolute;
+  bottom: 0;
+}
+#top div.inner02 ul li div.video div.video03 a {
+  color:black;
+}
+#top div.inner02 ul li div.video div.video03 a:hover{
+  color:red;
+}
+
+#top .inner02 ul li div.character {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.13541666666666vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 13.0208333333333vw;
+  padding-right: 13.0208333333333vw;
+  box-sizing: border-box;
+}
+header#top div.inner02 ul li:nth-child(2):hover >div.character{
+ 
+}
+#top .inner02 ul li div.character .character01 {
+  display: flex;
+  justify-content: space-between;
+  width: 15.625vw;
+  margin-top: 1.04166666666666vw;
+  margin-bottom: 0.520833333333333vw;
+}
+#top .inner02 ul li div.character .character01 a:hover{
+  color: red;
+}
+#top .inner02 ul li div.character .character01 a {
+  color: black;
+}
+#top .inner02 ul li div.character h2.characterh2 {
+  margin-bottom: 0.520833333333333vw;
+}
+#top .inner02 ul li div.character h2.characterh2 a{
+   color:black;
+  font-size: 1.35416666666666vw;
+}
+#top .inner02 ul li div.character .character02 {
+  width:100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.60416666666666vw;
+  gap: 0.78125vw;
+}
+#top .inner02 ul li div.character .character02 div.box {
+  display: block;
+  background: black;
+  width: 7.29166666666666vw;
+  height: 15.1041666666666vw;
+}
+#top .inner02 ul li div.character .character02 div a.thorimg {
+   width: 7.29166666666666vw;
+   height: 7.55208333333333vw;
+  background-image: url(../img/characters01.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.character .character02 div:hover > a:nth-child(1)::after{
+  transform: scaleY(1);
+}
+#top .inner02 ul li div.character .character02 div > a:nth-child(1)::after{
+  content:"";
+  width: 7.31166666666666vw;
+  height: 7.34375vw;
+  border-top: 0.2083333333333333vw solid red;
+  background: red;
+  position: absolute;
+  top: 11.5625vw;
+  transition: all 0.5s;
+  transform: scaleY(0.03);
+  transform-origin: left top;
+}
+
+
+#top .inner02 ul li div.character .character02 div a.name {
+  width: 7.29166666666666vw;
+  height: 7.29166666666666vw;
+  color:white;
+  position: absolute;
+  z-index: 1;
+  padding-top:1.04166666666666vw;
+  padding-left: 1.04166666666666vw;
+  font-size: 0.8333333333333333;
+  font-weight: 900;
+}
+
+#top .inner02 ul li div.character .character02 div a.msimg {
+   width: 7.291666666666667vw;
+   height: 7.552083333333333vw;
+    background-image: url(../img/characters02.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.character .character02 div a.janeimg {
+   width: 7.291666666666667vw;
+   height: 7.552083333333333vw;
+    background-image: url(../img/characters03.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.character .character02 div a.sheimg {
+   width: 7.291666666666667vw;
+   height: 7.552083333333333vw;
+    background-image: url(../img/characters04.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.character .character02 div a.grootimg {
+   width: 7.291666666666667vw;
+   height: 7.552083333333333vw;
+    background-image: url(../img/characters05.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.character .character02 div a.brunoimg {
+   width: 7.291666666666667vw;
+   height: 7.552083333333333vw;
+    background-image: url(../img/characters06.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.character .character02 div span.marvel {
+  color:white;
+  margin-top: 6.25vw;
+  margin-left: 1.04166666666666vw;
+  font-size: 0.625vw;
+  color: #ccc;
+  font-weight: 900;
+  position: absolute;
+  z-index: 1;
+}
+#top .inner02 ul li div.character .character02 div span,hulk {
+  color:white;
+  margin-top: 5.729166666666667vw;
+  margin-left: 1.041666666666667vw;
+  font-size: 0.625vw;
+  color: #ccc;
+  font-weight: 900;
+}
+header#top div.inner02 ul li:nth-child(3):hover >div.comics{
+ 
+}
+#top .inner02 ul li div.comics {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.135416666666667vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+#top .inner02 ul li div.comics div.comics01 {
+  display: flex;
+  justify-content: space-between;
+  width: 38.54166666666667vw;
+  margin-top: 0.7208333333333333vw; 
+  margin-bottom: 0.520833333333333vw;
+  
+    
+}
+#top .inner02 ul li div.comics div.comics01 a {
+  color: black;
+}
+#top .inner02 ul li div.comics div.comics01 a:hover{
+  color:red;
+}
+#top .inner02 ul li div.comics h2.comicsh2 {
+  margin-bottom: 1.04166666666666vw;
+}
+#top .inner02 ul li div.comics h2.comicsh2 a {
+  color:black;
+  font-size: 1.35416666666666vw;
+}
+#top .inner02 ul li div.comics div.comics02 {
+  width: 100%;
+  height: 10.9375vw;
+  display: flex;
+  justify-content: center;
+}
+
+#top .inner02 ul li div.comics div.comics02 >div:hover>a.poster{
+  transform: translateY(-0.2604166666666667vw);
+}
+#top .inner02 ul li div.comics div.comics02 >div>a.poster{ 
+  transition: all 0.3s;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox01 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox01 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/comicsposter01.jpg);
+  background-size: cover;
+}
+
+#top .inner02 ul li div.comics div.comics02 div.comicsbox01 a.poster02 {
+   font-size: 0.7291666666666667vw;
+   margin-top: 0.5208333333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox01 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox02 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox03 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox04 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox05 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox06 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox01 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox02 {
+  width: 7.34375vw;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.04166666666666vw;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox02 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/comicsposter02.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox02 a.poster02 {
+  font-size: 0.729166666666666vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox02 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox03 {
+  width: 7.34375vw;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox03 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/comicsposter03.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox03 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox03 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox04 {
+  width: 7.34375vw;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox04 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/comicsposter04.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox04 a.poster02 {
+   font-size: 0.7291666666666667vw;
+   margin-top: 0.5208333333333333vw;
+   margin-bottom: 0.1041666666666667vw;
+   color: black;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox04 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox05 {
+    width: 7.34375vw;
+    font-weight: 900;
+    height: 100%;
+    margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox05 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/comicsposter05.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox05 a.poster02 {
+   font-size: 0.7291666666666667vw;
+   margin-top: 0.5208333333333333vw;
+   margin-bottom: 0.1041666666666667vw;
+   color: black;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox05 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox06 {
+    width: 7.34375vw;
+    font-weight: 900;
+    height: 100%;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox06 a.poster {
+   width: 100%;
+   height: 100%;
+   background-image: url(../img/comicsposter06.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox06 a.poster02 {
+  font-size: 0.7291666666666667vw;
+   margin-top: 0.5208333333333333vw;
+   margin-bottom: 0.1041666666666667vw;
+   color: black;
+}
+#top .inner02 ul li div.comics div.comics02 div.comicsbox06 span {
+  font-size: 0.625vw;
+  color: gray;
+}
+#top .inner02 ul li div.comics div.comics03 {
+  width: 19.79166666666667vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4.270833333333333vw;
+}
+#top .inner02 ul li div.comics div.comics03 a {
+  color: black;
+  font-size: 0.625vw;
+  font-weight: 900;
+}
+#top .inner02 ul li div.comics div.comics03 a:hover{
+  color: red;
+}
+
+
+#top .inner02 ul li div.movies {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.135416666666667vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+header#top div.inner02 ul li:nth-child(4):hover >div.movies{
+
+}
+#top .inner02 ul li div.movies div.movies01 {
+  display: flex;
+  justify-content: space-between;
+  width: 46.875vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 1.041666666666667vw;
+  
+    
+}
+#top .inner02 ul li div.movies div.movies01 a {
+  color: black;
+}
+#top .inner02 ul li div.movies div.movies01 a:hover{
+  color:red;
+}
+#top .inner02 ul li div.movies h2.moviesh2 {
+  margin-bottom: 1.5625vw;
+}
+#top .inner02 ul li div.movies h2.moviesh2 a {
+  color:black;
+  font-size: 1.354166666666667vw;
+}
+#top .inner02 ul li div.movies div.movies02 {
+  width: 100%;
+  height: 10.9375vw;
+  display: flex;
+  justify-content: center;
+}
+
+#top .inner02 ul li div.movies div.movies02 >div:hover>a.poster{
+  transform: translateY(-0.2604166666666667vw);
+}
+#top .inner02 ul li div.movies div.movies02 >div>a.poster{ 
+  transition: all 0.3s;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox01 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox01 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headermovies01.jpg);
+  background-size: cover;
+}
+
+#top .inner02 ul li div.movies div.movies02 div.moviesbox01 a.poster02 {
+   font-size: 0.7291666666666667vw;
+   margin-top: 0.5208333333333333vw;
+   margin-bottom: 0.1041666666666667vw;
+   color: black;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox01 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox02 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox03 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox04 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox05 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox06 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox01 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox02 {
+  width: 7.34375vw;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox02 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headermovies02.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox02 a.poster02 {
+ font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox02 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox03 {
+  width: 7.34375vw;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox03 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headermovies03.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox03 a.poster02 {
+ font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox03 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox04 {
+ width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox04 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headermovies04.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox04 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox04 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox05 {
+   width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox05 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headermovies05.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox05 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox05 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox06 {
+    width: 7.34375vw;
+    font-weight: 900;
+    height: 100%;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox06 a.poster {
+   width: 100%;
+   height: 100%;
+   background-image: url(../img/headermovies06.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox06 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.movies div.movies02 div.moviesbox06 span {
+  font-size: 0.625vw;
+  color: gray;
+}
+
+
+
+
+#top .inner02 ul li div.show {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.135416666666667vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+header#top div.inner02 ul li:nth-child(5):hover >div.show{
+ display: flex;
+}
+#top .inner02 ul li div.show div.show01 {
+  display: flex;
+  justify-content: space-between;
+  width: 29.6875vw;
+  margin-top: 0.7208333333333333vw; 
+  margin-bottom: 1.30208333333333vw;
+  
+    
+}
+#top .inner02 ul li div.show div.show01 a {
+  color: black;
+}
+#top .inner02 ul li div.show div.show01 a:hover{
+  color:red;
+}
+#top .inner02 ul li div.show h2.showh2 {
+  margin-bottom: 1.5625vw;
+}
+#top .inner02 ul li div.show h2.showh2 a {
+  color:black;
+  font-size: 1.35416666666666vw;
+}
+#top .inner02 ul li div.show div.show02 {
+  width: 100%;
+  height: 10.9375vw;
+  display: flex;
+  justify-content: center;
+}
+
+#top .inner02 ul li div.show div.show02 >div:hover>a.poster{
+  transform: translateY(-0.260416666666666vw);
+}
+#top .inner02 ul li div.show div.show02 >div>a.poster{ 
+  transition: all 0.3s;
+}
+#top .inner02 ul li div.show div.show02 div.showbox01 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.show div.show02 div.showbox01 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/show01.jpg);
+  background-size: cover;
+}
+
+#top .inner02 ul li div.show div.show02 div.showbox01 a.poster02 {
+   font-size: 0.729166666666666vw;
+   margin-top: 0.520833333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.show div.show02 div.showbox01 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.show div.show02 div.showbox02 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.show div.show02 div.showbox03 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.show div.show02 div.showbox04 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.show div.show02 div.showbox05 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.show div.show02 div.showbox06 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.show div.show02 div.showbox01 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.show div.show02 div.showbox02 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.show div.show02 div.showbox02 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/show02.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.show div.show02 div.showbox02 a.poster02 {
+   font-size: 0.729166666666666vw;
+   margin-top: 0.520833333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.show div.show02 div.showbox02 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.show div.show02 div.showbox03 {
+   width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.show div.show02 div.showbox03 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/show03.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.show div.show02 div.showbox03 a.poster02 {
+   font-size: 0.729166666666666vw;
+   margin-top: 0.520833333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.show div.show02 div.showbox03 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.show div.show02 div.showbox04 {
+   width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.show div.show02 div.showbox04 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/show04.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.show div.show02 div.showbox04 a.poster02 {
+   font-size: 0.729166666666666vw;
+   margin-top: 0.520833333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.show div.show02 div.showbox04 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.show div.show02 div.showbox05 {
+     width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.show div.show02 div.showbox05 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/show05.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.show div.show02 div.showbox05 a.poster02 {
+   font-size: 0.729166666666666vw;
+   margin-top: 0.520833333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.show div.show02 div.showbox05 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.show div.show02 div.showbox06 {
+    width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+}
+#top .inner02 ul li div.show div.show02 div.showbox06 a.poster {
+   width: 100%;
+   height: 100%;
+   background-image: url(../img/show06.jpg);
+  background-size: cover;
+}
+#top .inner02 ul li div.show div.show02 div.showbox06 a.poster02 {
+   font-size: 0.729166666666666vw;
+   margin-top: 0.520833333333333vw;
+   margin-bottom: 0.104166666666666vw;
+   color: black;
+}
+#top .inner02 ul li div.show div.show02 div.showbox06 span {
+  font-size: 0.625vw;
+  color: gray;
+}
+
+
+
+#top .inner02 ul li div.games {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.13541666666666vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+header#top div.inner02 ul li:nth-child(6):hover >div.games{
+
+}
+#top .inner02 ul li div.games div.games01 {
+  display: flex;
+  justify-content: space-between;
+  width: 29.6875vw;
+  margin-top: 0.7208333333333333vw; 
+  margin-bottom: 1.30208333333333vw;
+  
+    
+}
+#top .inner02 ul li div.games div.games01 a {
+  color: black;
+}
+#top .inner02 ul li div.games div.games01 a:hover{
+  color:red;
+}
+#top .inner02 ul li div.games h2.gamesh2 {
+  margin-bottom: 1.5625vw;
+}
+#top .inner02 ul li div.games h2.gamesh2 a {
+  color:black;
+  font-size: 1.35416666666666vw;
+}
+#top .inner02 ul li div.games div.games02 {
+  width: 100%;
+  height: 10.9375vw;
+  display: flex;
+  justify-content: center;
+}
+
+#top .inner02 ul li div.games div.games02 >div:hover>a.poster{
+  transform: translateY(-0.260416666666666vw);
+}
+#top .inner02 ul li div.games div.games02 >div>a.poster{ 
+  transition: all 0.3s;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox01 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox01 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/games01.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#top .inner02 ul li div.games div.games02 div.gamesbox01 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox01 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox02 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox03 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox04 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox05 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox06 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox01 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox02 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox02 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/games02.png);
+  background-size: cover;
+  background-position: center;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox02 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox02 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox03 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox03 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/games03.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox03 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox03 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox04 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox04 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/games04.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox04 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox04 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox05 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox05 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/games05.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox05 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox05 span {
+  font-size: 0.625vw;
+  color: gray
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox06 {
+  width: 7.34375vw;
+  height: 100%;
+  font-weight: 900;
+  height: 100%;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox06 a.poster {
+   width: 100%;
+   height: 100%;
+   background-image: url(../img/games06.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#top .inner02 ul li div.games div.games02 div.gamesbox06 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+
+
+
+
+
+#top .inner02 ul li div.headernews {
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.13541666666666vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+header#top div.inner02 ul li:nth-child(7):hover >div.headernews{
+
+}
+#top .inner02 ul li div.headernews div.headernews01 {
+  display: flex;
+  justify-content: space-between;
+  width: 8.854166666666667vw;
+  margin-top: 0.7208333333333333vw;
+  margin-bottom: 1.041666666666667vw;
+  
+    
+}
+#top .inner02 ul li div.headernews div.headernews01 a {
+  color: black;
+}
+#top .inner02 ul li div.headernews div.headernews01 a:hover{
+  color:red;
+}
+#top .inner02 ul li div.headernews h2.headernewsh2 {
+  margin-bottom: 1.041666666666667vw;
+}
+#top .inner02 ul li div.headernews h2.headernewsh2 a {
+  color:black;
+  font-size: 1.770833333333333vw;
+}
+#top .inner02 ul li div.headernews div.headernews02 {
+  width: 55%;
+  height: 10.9375vw;
+  display: flex;
+  justify-content: center;
+}
+
+#top .inner02 ul li div.headernews div.headernews02 >div:hover>a.poster{
+  transform: translateY(-0.2604166666666667vw);
+}
+#top .inner02 ul li div.headernews div.headernews02 >div>a.poster{ 
+  transition: all 0.3s;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox01 {
+  width: 12.34375vw;
+  height: 7.03125vw;
+  font-weight: 900;
+  margin-right: 3.385416666666667vw;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox01 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headernews01.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.885416666666666vw;
+}
+
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox01 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.104166666666666vw;
+  color: black;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox01 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox02 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox03 a.poster02:hover{
+  color: red;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox01 span {
+  font-size: 0.729166666666666vw;
+  color: gray
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox02 {
+  width: 12.34375vw;
+  font-weight: 900;
+  height: 7.023933402705515vw;
+  margin-right: 3.385416666666667vw;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox02 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headernews02.jpg);
+  background-size: cover;
+  background-position-y: -2.083333333333333vw;
+  margin-bottom: 0.8854166666666667vw;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox02 a.poster02 {
+  font-size: 0.7291666666666667vw;
+  margin-top: 0.5208333333333333vw;
+  margin-bottom: 0.104166666666666vw;
+  color: black;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox02 span {
+  font-size: 0.729166666666666vw;
+  color: gray
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox03 {
+  width: 12.34375vw;
+  font-weight: 900;
+  height: 7.03125vw;
+  margin-right: 1.041666666666667vw;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox03 a.poster {
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/headernews03.png);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.8854166666666667vw;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox03 a.poster02 {
+  font-size: 0.729166666666666vw;
+  margin-top: 0.520833333333333vw;
+  margin-bottom: 0.1041666666666667vw;
+  color: black;
+}
+#top .inner02 ul li div.headernews div.headernews02 div.headernewsbox03 span {
+  font-size: 0.729166666666666vw;
+  color: gray
+}
+#top .inner02 ul li div.headernews div.headernews03 {
+  width: 36.4583333333333vw;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.04166666666666vw;
+  margin-top: 3.125vw;
+  position: absolute;
+  bottom: 0;
+}
+#top .inner02 ul li div.headernews div.headernews03 a {
+  color: black;
+  font-size: 0.625vw;
+  font-weight: 900;
+}
+#top .inner02 ul li div.headernews div.headernews03 a:hover{
+  color: red;
+}
+
+
+
+#top .inner02 ul li div.more{
+  width: 100vw;
+  height: 20.3125vw;
+  position: absolute;;
+  top:2.13541666666666vw;
+  left: -32.1875vw;
+  z-index: 15;
+  background-color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+header#top div.inner02 ul li:nth-child(8):hover >div.more{
+
+}
+#top .inner02 ul li div.more div.hgroup{
+  display: flex;
+  justify-content: space-between;
+  width:41.6666666666666vw;
+  margin-top: 7.03125vw;
+  margin-bottom: 7.03125vw;
+}
+#top .inner02 ul li div.more div.hgroup h2.moreh2 {
+  margin-bottom: 1.04166666666666vw;
+}
+#top .inner02 ul li div.more div.hgroup h2.moreh2 a:hover{
+  color: red;
+}
+#top .inner02 ul li div.more div.hgroup h2.moreh2 a {
+  color:black;
+  font-size: 1.35416666666666vw;
+}
+#top .inner02 ul li div.more div.more01 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#top .inner02 ul li div.more div.more01 div.moreicon {
+  width:20.8333333333333vw;
+  height: 3.64583333333333vw;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0.520833333333333vw;
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a {
+  width: 1.302083333333333vw;
+  height: 1.302083333333333vw;
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(1){
+  background-image: url(../img/logo-facebook.svg);
+  
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(1):hover{
+  background-image: url(../img/logo-facebook-black.svg);
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(2){
+  background-image: url(../img/logo-twitter.svg);
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(2):hover{
+  background-image: url(../img/logo-twitter\ -\ black.svg);
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(3){
+  background-image: url(../img/insta.svg);
+  background-size: contain
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(3):hover{
+  background-image: url(../img/insta-black.svg);
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(4){
+  background-image: url(../img/footer04.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 0.15625vw;
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(4):hover{
+  background-image: url(../img/footer04-black.svg);
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(5){
+  background-image: url(../img/footer05.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 0.15625vw;
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(5):hover{
+  background-image: url(../img/footer05-black.svg);
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(6){
+  background-image: url(../img/footer06.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 0.15625vw;
+}
+#top .inner02 ul li div.more div.more01 div.moreicon a:nth-child(6):hover{
+  background-image: url(../img/footer06-black.svg);
+}
+#top .inner02 ul li div.more div.more01 a > img.inside {
+  margin-right: 0.78125vw;
+  width: 6.979166666666667vw;
+  height: 3.072916666666667vw;
+}
+#top .inner02 ul li div.more div.more01 div.moreinside {
+  text-align: center;
+}
+#top .inner02 ul li div.more div.more01 div.moreinside a {
+  color: black;
+  font-size:0.677083333333333vw;
+  line-height: 1.5
+}
+#top .inner02 ul li div.more div.more01 div.moreinside a span {
+  color: gray;
+  font-size:0.729166666666666vw;
+}
+#top .inner02 ul li div.more div.more01 a > img.marvel {
+  margin-right: 0.78125vw;
+  width: 6.979166666666667vw;
+  height: 3.072916666666667vw;
+}
+#top .inner02 ul li div.more div.more01 div.moremarvel{
+  text-align: center;
+}
+#top .inner02 ul li div.more div.more01 div.moremarvel a {
+  color: black;
+  font-size:0.677083333333333vw;
+  line-height: 1.5
+}
+#top .inner02 ul li div.more div.more01 div.moremarvel a span {
+  color: gray;
+  font-size:0.729166666666666vw;
+}
+
+
+header#top div.container03{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background-color: black;
+}
+header#top div.container03 > p{
+  height: 2.08333333vw;
+  line-height: 2.08333333vw;
+  font-size: 0.6770833vw;
+  text-align: center;
+  padding-right: 2.8645833333vw;
+}
+header#top div.container03 > p a{
+    color: white;
+  
+}
+header#top div.container03 > img{
+  transform: translateX(-2.2395833333vw);
+  width: 2.65625vw;
+  height: 2.078125vw;
+}

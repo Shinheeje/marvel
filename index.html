@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pf3 : MARVEL</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){ 
+            $("header#top div.inner02 ul li").hover(
+                function(){
+                    $(this).children("div").addClass("headershow").hide().fadeIn();
+                    $(this).siblings().children("div").hide().removeClass("headershow");
+                },function(){
+                    $(this).children("div").removeClass("headershow").hide().fadeOut();
+                }
+            );
+        });
+    </script>
+</head>
+<body>
+    <!-- 상단영역 -->
+    <header id="top">
+        <div class="inner">
+            <div class="left">
+                <a href=""><img src="./img/in.svg" alt=""></a>
+                <a href="" class="text">SIGN IN</a>
+                <a href="" class="text02">JOIN</a>
+            </div>
+            <h1 class="logo"><span><a href="">MARVEL<svg width="6.7708333vw" height="2.70833333vw" xmlns="http://www.w3.org/2000/svg"><rect fill="#EC1D24" width="100%" height="100%"></rect><path fill="#FEFEFE" d="M126.222 40.059v7.906H111.58V4h7.885v36.059h6.757zm-62.564-14.5c-.61.294-1.248.44-1.87.442v-14.14h.04c.622-.005 5.264.184 5.264 6.993 0 3.559-1.58 5.804-3.434 6.705zM40.55 34.24l2.183-18.799 2.265 18.799H40.55zm69.655-22.215V4.007H87.879l-3.675 26.779-3.63-26.78h-8.052l.901 7.15c-.928-1.832-4.224-7.15-11.48-7.15-.047-.002-8.06 0-8.06 0l-.031 39.032-5.868-39.031-10.545-.005-6.072 40.44.002-40.435H21.278L17.64 26.724 14.096 4.006H4v43.966h7.95V26.78l3.618 21.192h4.226l3.565-21.192v21.192h15.327l.928-6.762h6.17l.927 6.762 15.047.008h.01v-.008h.02V33.702l1.845-.27 3.817 14.55h7.784l-.002-.01h.022l-5.011-17.048c2.538-1.88 5.406-6.644 4.643-11.203v-.002C74.894 19.777 79.615 48 79.615 48l9.256-.027 6.327-39.85v39.85h15.007v-7.908h-7.124v-10.08h7.124v-8.03h-7.124v-9.931h7.124z"></path><path fill="#EC1D24" d="M0 0h30v52H0z"></path><path fill="#FEFEFE" d="M31.5 48V4H21.291l-3.64 22.735L14.102 4H4v44h8V26.792L15.577 48h4.229l3.568-21.208V48z"></path></svg>
+                <rect fill="#EC1D24" width="100%" height="100%"></rect>
+                <path fill="#FEFEFE" d="M126.222 40.059v7.906H111.58V4h7.885v36.059h6.757zm-62.564-14.5c-.61.294-1.248.44-1.87.442v-14.14h.04c.622-.005 5.264.184 5.264 6.993 0 3.559-1.58 5.804-3.434 6.705zM40.55 34.24l2.183-18.799 2.265 18.799H40.55zm69.655-22.215V4.007H87.879l-3.675 26.779-3.63-26.78h-8.052l.901 7.15c-.928-1.832-4.224-7.15-11.48-7.15-.047-.002-8.06 0-8.06 0l-.031 39.032-5.868-39.031-10.545-.005-6.072 40.44.002-40.435H21.278L17.64 26.724 14.096 4.006H4v43.966h7.95V26.78l3.618 21.192h4.226l3.565-21.192v21.192h15.327l.928-6.762h6.17l.927 6.762 15.047.008h.01v-.008h.02V33.702l1.845-.27 3.817 14.55h7.784l-.002-.01h.022l-5.011-17.048c2.538-1.88 5.406-6.644 4.643-11.203v-.002C74.894 19.777 79.615 48 79.615 48l9.256-.027 6.327-39.85v39.85h15.007v-7.908h-7.124v-10.08h7.124v-8.03h-7.124v-9.931h7.124z"></path>
+                <path fill="#EC1D24" d="M0 0h30v52H0z"></path>
+                </a></span></h1>
+            <div class="container02">
+                <a href=""><img src="./img/icon-mu-shield.png" alt=""></a>
+                <a href="" class="marvel">MARVEL UNIMITED<span class="subscribe">SUBSCRIBE</span></a>
+                <a href="" class="search">SEARCH<span class="material-symbols-outlined">search</span></a>
+            </div>
+        </div> 
+        <div class="inner02">
+            <ul>
+                <li>
+                    <a href="">VIDEOS</a>
+                    <div class="video">
+                        <div class="video01">
+                            <a href="" class="br">TRAILERS & EXTRAS</a>
+                            <a href="" class="br">DIGITAL SERIES</a>
+                            <a href="" class="br">ALL VIDEO</a>
+                        </div>
+                        <h2 class="videoh2"><a href="">TRENDING VIDEO</a></h2>
+                        <div class="video02">
+                            <div class="interview01">
+                                <a href="" class="thorvideo01" ></a>
+                                <span class="br">TRAILERS & EXTRAS</span>
+                                <a href="" class="br">Chirs Hemsworth on
+                                    Thor's Incredible
+                                    Journey in Marvel
+                                    Studios' Thor:Love
+                                    and Thunder
+                                </a>
+                            </div>
+                            <div class="interview02">
+                                <a href="" class="thorvideo02"></a>
+                                <span class="br">TRAILERS & EXTRAS</span>
+                                <a href="" class="br">Natalie Portman
+                                    Returns to the MCU as
+                                    Jane Foster in Marvel
+                                    Studios' Thor: Lover
+                                    and Thunder
+                                </a>
+                            </div>
+                            <div class="interview03">
+                                <a href="" class="thorvideo03"></a>
+                                <span class="br">TRAILERS & EXTRAS</span>
+                                <a href="" class="br">Taika Waititi on
+                                    Assembling an
+                                    Astounding Cast for
+                                    Marvel Studios' Thor:
+                                    Love and Thunder
+                                </a>
+                            </div>
+                            <div class="interview04">
+                                <a href="" class="thorvideo04"></a>
+                                <span class="br">TRAILERS & EXTRAS</span>
+                                <a href="" class="br">Christial Bale On His
+                                    MCU Debut as Gorr in
+                                    Marvel Studios' Thor:
+                                    Love and Thunder!
+                                </a>
+                            </div>
+                        </div>
+                        <div class="video03">
+                            <a href="">OUR SHOWS</a>
+                            <a href="">EARTH'S MIGHTIEST SHOW</a>
+                            <a href="">THIS WEEK IN MARVEL</a>
+                            <a href="">WOMEN OF MARVEL</a>
+                        </div>
+                    </div>
+                </li>
+                
+                <li>
+                    <a href="">CHARACTERS</a>
+                    <div class="character">
+                        <div class="character01">
+                            <a href="" class="br">ALL CHARACTERS</a>
+                            <a href="" class="br">TEAM & GROUPS</a>
+                            <a href="" class="br">EXPLORE ALL</a>
+                        </div>
+                        <h2 class="characterh2"><a href="">TRENDING IN THE UNIVERSE</a></h2>
+                        <div class="character02">
+                            <div class="box">
+                                <a href="" class="thorimg br" ></a>
+                                <a href="" class="name br">THOR
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="" class="msimg br"></a>
+                                <a href="" class="name br">MS.<br>MARVEL
+                                </a>
+                                <span class="marvel br">KAMALA KHAN</span>
+                            </div>
+                            <div class="box">
+                                <a href="" class="janeimg br" ></a>
+                                <a href="" class="name br">JANE<br>FOSTER
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="" class="sheimg br" ></a>
+                                <a href="" class="name br">SHE-HULK
+                                </a>
+                                <span class="hulk br">JENNIFER<br>WALTERS</span>
+                            </div>
+                            <div class="box">
+                                <a href="" class="grootimg br" ></a>
+                                <a href="" class="name br">GROOT
+                                </a>
+                            </div>
+                            <div class="box">
+                                <a href="" class="brunoimg br" ></a>
+                                <a href="" class="name br">BRUNO<br>CARRELLI
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">COMICS</a>
+                    <div class="comics">
+                        <div class="comics01">
+                            <a href="" class="br">RELEASE CALENDAR</a>
+                            <a href="" class="br">MARVEL UNLIMITED</a>
+                            <a href="" class="br">SHOP DIGITAL COMICS</a>
+                            <a href="" class="br">READING LISTS</a>
+                            <a href="" class="br">PRINT SUBSCRIPTIONS</a>
+                            <a href="" class="br">ALL COMICS</a>
+                        </div>
+                        <h2 class="comicsh2"><a href="">LATEST COMICS</a></h2>
+                        <div class="comics02">
+                            <div class="comicsbox01">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Damage Control
+                                    (2022) #1
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="comicsbox02">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Shang-chi and the
+                                    Ten Rings (2022)
+                                    #2
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="comicsbox03">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">A.X.E.: Judgment
+                                    Day (2022) #3
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="comicsbox04">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Captain America:
+                                    Symbol of Truth
+                                    (2022) #4
+                                </a>
+                                <span>2022</span>   
+                            </div>
+                            <div class="comicsbox05">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Maruders (2022) #5
+                                </a>
+                                <span>2022</span>   
+                            </div>
+                            <div class="comicsbox06">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Defenders:
+                                    Beyond (2022)
+                                    #2
+                                </a>
+                                <span>2022</span>   
+                            </div>
+                        </div>
+                        <div class="comics03">
+                            <a href="" class="br">BROWSE BY</a>
+                            <a href="" class="br">SERIES</a>
+                            <a href="" class="br">CHARACTER</a>
+                            <a href="" class="br">CREATOR</a>
+                            <a href="" class="br">EVENT</a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <a href="">MOVIES</a>
+                    <div class="movies">
+                        <div class="movies01">
+                            <a href="" class="br">BLACK PANTHER: WAKANDA FOREVER</a>
+                            <a href="" class="br">THOR: LOVE AND THUNDER</a>
+                            <a href="" class="br">DOCTOR STRANGE AND THE MULTIVERSE OF MADNESS</a>
+                            <a href="" class="br">SEE ALL MOVIES</a>
+                            <a href="" class="br">DISNEY+</a>
+                        </div>
+                        <h2 class="moviesh2"><a href="">MOVIES</a></h2>
+                        <div class="movies02">
+                            <div class="moviesbox01">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Black Panther:
+                                Wakanda
+                                </a>
+                                <span>NOV 11, 2022</span>
+                            </div>
+                            <div class="moviesbox02">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Thor: Love and
+                                Thunder
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="moviesbox03">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Doctor Strange
+                                in the Multiverse
+                                of Madness
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="moviesbox04">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Spider-Man: No
+                                Way Home
+                                </a>
+                                <span>2021</span>   
+                            </div>
+                            <div class="moviesbox05">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Eternals
+                                </a>
+                                <span>2021</span>   
+                            </div>
+                            <div class="moviesbox06">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Shang-Chi and
+                                The Legend of
+                                The Ten Rings
+                                </a>
+                                <span>2021</span>   
+                            </div>
+                        </div>
+                    </div>    
+                </li>
+                <li>
+                    <a href="">TV SHOWS</a>
+                    <div class="show">
+                        <div class="show01">
+                            <a href="" class="br">MOON KNIGHT</a>
+                            <a href="" class="br">HAWKEYE</a>
+                            <a href="" class="br">MARVEL STUDIOS ASSEMBLED</a>
+                            <a href="" class="br">SEE ALL TV SHOWS</a>
+                            <a href="" class="br">DISNEY+</a>
+                        </div>
+                        <h2 class="showh2"><a href="">TV SHOWS</a></h2>
+                        <div class="show02">
+                            <div class="showbox01">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">She-Hulk:
+                                Attorney-at-Law
+                                </a>
+                                <span>AUG 18, 2022</span>
+                            </div>
+                            <div class="showbox02">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">I Am Groot
+                                </a>
+                                <span>AUG 10, 2022</span>
+                            </div>
+                            <div class="showbox03">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Ms.Marvel
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="showbox04">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Moon Knight
+                                </a>
+                                <span>2022</span>   
+                            </div>
+                            <div class="showbox05">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Hawkeye
+                                </a>
+                                <span>2021</span>   
+                            </div>
+                            <div class="showbox06">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">What If...? |
+                                Season 1
+                                </a>
+                                <span>2021</span>   
+                            </div>
+                        </div>
+                    </div>   
+                </li>
+                <li>
+                    <a href="">GAMES</a>
+                    <div class="games">
+                        <div class="games01">
+                            <a href="" class="br">MARVEL'S MIDNIGHT SUNS</a>
+                            <a href="" class="br">MARVEL SNAP</a>
+                            <a href="" class="br">MARVEL'S GUARDIANS OF THE GALAXY</a>
+                            <a href="" class="br">SEE ALL GAMES</a>
+                        </div>
+                        <h2 class="gamesh2"><a href="">GAMES</a></h2>
+                        <div class="games02">
+                            <div class="gamesbox01">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Marvel's
+                                    Midnight Suns
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="gamesbox02">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">MARVEL SNAP
+                                </a>
+                                <span>2022</span>
+                            </div>
+                            <div class="gamesbox03">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Marvel's
+                                Guardians of the
+                                Galaxy
+                                </a>
+                                <span>2021</span>
+                            </div>
+                            <div class="gamesbox04">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">MARVEL Future
+                                    Revolution
+                                </a>
+                                <span>2021</span>   
+                            </div>
+                            <div class="gamesbox05">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Marvel's Spider-
+                                    Man: Miles
+                                    Morales
+                                </a>
+                                <span>2020</span>   
+                            </div>
+                            <div class="gamesbox06">
+                                <a href="" class="poster br"></a>
+                                <a href="" class="poster02 br">Marvel Contest
+                                of Champions
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
+                </li>
+                <li>
+                    <a href="">NEWS</a>
+                    <div class="headernews">
+                        <div class="headernews01">
+                            <a href="" class="br">LATEST NEWS</a>
+                            <a href="" class="br">ALL NEWS</a>
+                        </div>
+                        <h2 class="headernewsh2"><a href="">TRENDING NEWS</a></h2>
+                        <div class="headernews02">
+                            <div class="headernewsbox01">
+                                <a href="" class="poster br"></a>
+                                <span>COMICS</span>
+                                <a href="" class="poster02 br">August 10's New
+                                Marvel Comics: The
+                                Full List
+                                </a>
+                            </div>
+                            <div class="headernewsbox02">
+                                <a href="" class="poster br"></a>
+                                <span>COMICS</span>
+                                <a href="" class="poster02 br">The Mad Titan
+                                    Revisits His Brutal
+                                    Past and Embraces
+                                    His Darkest Future in
+                                    'Thanos: Death Notes'
+                                </a>
+                            </div>
+                            <div class="headernewsbox03">
+                                <a href="" class="poster br"></a>
+                                <span>TV SHOWS</span>
+                                <a href="" class="poster02 br">'I AM Groot': Branch
+                                    Out With New Posters
+                                    From the Series
+                                </a>
+                            </div>
+                            <div class="headernews03">
+                                <a href="" class="br">SEARCH BY</a>
+                                <a href="" class="br">MOVIES</a>
+                                <a href="" class="br">COMICS</a>
+                                <a href="" class="br">TV SHOWS</a>
+                                <a href="" class="br">GAMES</a>
+                                <a href="" class="br">DIGITAL SERIES</a>
+                                <a href="" class="br">CULTURE & LIFESTYLE</a>
+                                <a href="" class="br">PODCASTS</a>
+                            </div>
+                        </div>
+                    </div>   
+                </li>
+                <li>
+                    <a href="">MORE</a>
+                    <div class="more">
+                        <div class="hgroup">
+                            <h2 class="moreh2"><a href="">CULTURE & LIFESTYLE</a></h2>
+                            <h2 class="moreh2"><a href="">BOOKS</a></h2>
+                            <h2 class="moreh2"><a href="">PODCASTS</a></h2>
+                            <h2 class="moreh2"><a href="">SHOP</a></h2>
+                        </div>
+                        <div class="more01">
+                            <div class="moreicon">
+                                <a href="" class="br"></a>
+                                <a href="" class="br"></a>
+                                <a href="" class="br"></a>
+                                <a href="" class="br"></a>
+                                <a href="" class="br"></a>
+                                <a href="" class="br"></a>
+                            </div>
+                            <a href="" class="br"><img src="../pf03-마블/img/insider-black.png" class="inside" alt=""></a>
+                            <div class="moreinside">
+                                <a href="" class="br">MARVEL INSIDER</a>
+                                <a href="" class="br"><span>Get Rewarded for Being a Marvel FAN</span></a>
+                            </div>
+                            <a href="" class="br"><img src="../pf03-마블/img/marvel-black.png" class="marvel" alt=""></a>
+                            <div class="moremarvel">
+                                <a href="" class="br">MARVEL UNLIMITED</a>
+                                <a href="" class="br"><span>Access Over 30,000+ Digital Comics</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="container03">
+            <p><a href="">STREAM MS. MARVEL EXCLUSIVELY ON</a></p>
+            <img src="./img/disney.png" alt="">
+        </div>
+    </header>
+    <!-- 타이틀영역 -->
+    <div id="title">
+        <div class="inner">
+            <div class="top">
+                <h2 class="h2">MOVIES</h2>
+                <p>Journey into the cosmic depths of the mighty Marvel Cinematic Universe!</p>
+            </div>
+            <div class="container04">
+                <div class="box">
+                    <ul>
+                        <li>
+                            <a href="" class="poster"></a>
+                            <a href="" class="poster02">Black Panther: Wakanda Forever
+                            <span>NOV 11, 2022</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster"></a>
+                            <a href="" class="poster02">Thor: Love and Thunder
+                            <span>2022</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster"></a>
+                            <a href="" class="poster02">Doctor Strange in the Multiverse of Madness
+                            <span>2022</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster"></a>
+                            <a href="" class="poster02">Spider-Man: No Way Home
+                            <span>2021</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster"></a>
+                            <a href="" class="poster02">Eternals
+                            <span>2021</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster"></a>
+                            <a href="" class="poster02">Shang-Chi and The Legend of The Ten Rings
+                            <span>2021</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 내용영역 -->
+    <main id="top02">
+        <div class="inner">
+            <div class="mid">
+                <a href="" class="disney"><img src="./img/disney-logo02.png" alt=""></a>
+                <h3 class="h3"><a href="">A UNIVERSE OF SUPER HEROES</a></h3>
+                <p><a href="">All Your Favorite Stories and More. Start Streaming <span class="now">Now.</span></a></p>
+                <a href="" class="button">STREAM NOW</a>
+            </div>
+            <ul class="sns">
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+                <li>
+                    <a href=""></a>
+                </li>
+            </ul>
+            <div class="ad">
+                <a href=""></a>
+                <h2>ADVERTISEMENT</h2>
+            </div>
+            <div class="news">
+                <h2>LATEST MOVIES NEWS</h2>
+                <ul class="newsPoster">
+                    <li>
+                        <a href="" class="news"></a>
+                        <p>CULTURE & LIFESTYLE</p>
+                            <a href="" class="news02">Mighty Thor Arrives at Avengers 
+                            <span>Campus Paris</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="news"></a>
+                        <p>MOVIES</p>
+                            <a href="" class="news02">Open the Multiverse with the Doctor 
+                            <span>Strange Augmented Reality</span>
+                            <span>Experience</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="" class="news"></a>
+                        <p>MOVIES</p>
+                            <a href="" class="news02">‘Doctor Strange in the Multiverse of 
+                            <span>Madness’: The Wisdom of Wong and</span>
+                            <span>Charisma of Benedict Wong</span>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="" class="news"></a>
+                        <p>MOVIES</p>
+                            <a href="" class="news02">Dead Strange Dreamwalks Into 
+                            <span>'Doctor Strange in the Multiverse of </span>
+                            <span>Madness' Blu-ray Release</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="news_under">
+                <ul class="number">
+                    <li><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">...</a></li>
+                    <li><a href="">195</a></li>
+                    <li><a href="">NEXT</a></li>
+                </ul>
+            </div>
+            <div class="ad02">
+                <a href=""></a>
+                <h2>ADVERTISEMENT</h2>
+            </div>
+            <div class="movies">
+                <h2>MARVEL MOVIES</h2>
+                <ul class="line01">
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Avengers: Secret Wars
+                        <span>NOV 7, 2025</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Avengers: The Kang Dynasty
+                        <span>MAY 2, 2025</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Fantastic Four
+                        <span>NOV 8, 2024</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Thunderbolts
+                        <span>JUL 26, 2024</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Captain America: New World Order
+                        <span>MAY 3, 2024</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Blade
+                        <span>NOV 3, 2023</span></a>
+                    </li>
+                </ul>
+                <ul class="line02">
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">The Marvels
+                        <span>JUL 28, 2023</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Guardians of the Galaxy Volume 3
+                        <span>MAY 5, 2023</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Ant-Man and The Wasp: Quantumania
+                        <span>FEB 17, 2023</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Black Panther: Wakanda Forever
+                        <span>NOV 11, 2022</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Thor: Love and Thunder
+                        <span>2022</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Doctor Strange in the Multiverse of Madness
+                        <span>2022</span></a>
+                    </li>
+                </ul>
+                <ul class="line03">
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Spider-Man: No Way Home
+                        <span>2021</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Eternals
+                        <span>2021</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Shang-Chi and The Legend of The Ten Rings
+                        <span>2021</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Black Widow
+                        <span>2021</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Spider-Man: Far From Home
+                        <span>2019</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Avengers: Endgame
+                        <span>2019</span></a>
+                    </li>
+                </ul>
+                <ul class="line04">
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Captain Marvel
+                        <span>2019</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Ant-Man and The Wasp
+                        <span>2018</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Avengers: Infinity War
+                        <span>2018</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Black Panther
+                        <span>2018</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Thor: Ragnarok
+                        <span>2017</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Spider-Man: Homecoming
+                        <span>2017</span></a>
+                    </li>
+                </ul>
+                <ul class="line05">
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Guardians of the Galaxy Vol. 2
+                        <span>2017</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Doctor Strange
+                        <span>2016</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Captain America: Civil War
+                        <span>2016</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Ant-Man
+                        <span>2015</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Avengers: Age of Ultron
+                        <span>2015</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Guardians of the Galaxy
+                        <span>2014</span></a>
+                    </li>
+                </ul>
+                <ul class="line06">
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Captain America: The Winter Soldier
+                        <span>2014</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Thor: The Dark World
+                        <span>2013</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Iron Man 3
+                        <span>2013</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">The Avengers
+                        <span>2012</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Captain America: The First Avenger
+                        <span>2011</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="poster03"></a>
+                        <a href="" class="poster04">Thor
+                        <span>2011</span></a>
+                    </li>
+                </ul>
+                <a href="" class="button02">LOAD MORE</a>
+                <div class="movies02">
+                    <h2 class="other">OTHER MOVIES</h2>
+                    <ul class="line07">
+                        <li>
+                            <a href="" class="poster03"></a>
+                            <a href="" class="poster04">X-Men: Dark Phoenix
+                            <span>2019</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster03"></a>
+                            <a href="" class="poster04">Deadpool 2
+                            <span>2018</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster03"></a>
+                            <a href="" class="poster04">Logan
+                            <span>2017</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster03"></a>
+                            <a href="" class="poster04">X-Men: Apocalypse
+                            <span>2016</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster03"></a>
+                            <a href="" class="poster04">Deadpool
+                            <span>2016</span></a>
+                        </li>
+                        <li>
+                            <a href="" class="poster03"></a>
+                            <a href="" class="poster04">X-Men: Days of Future Past
+                            <span>2014</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <section class="latest">
+                <h2 class="other02">THE LATEST</h2>
+                <ul class="comics01">
+                    <li>
+                        <a href="" class="img01 br"></a>
+                        <ul>
+                            <span class="br">COMICS</span>
+                            <a href="" class="br">She-Hulk: Law and Disorder</a>
+                            <span class="br">5 HOURS AGO</span>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics02">
+                    <li>
+                        <a href="" class="img02 br"></a>
+                        <ul>
+                            <span class="br">COMICS</span>
+                            <a href="" class="br">August 17's New Marvel Comics: The Full List</a>
+                            <span class="br">8 HOURS AGO</span>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics03">
+                    <li>
+                        <a href="" class="img03 br"></a>
+                        <ul>
+                            <span class="br">Comics</span>
+                            <a href="" class="br">Artist Leonardo Romero Celebrates Marvel's Latin & Latinx Heroes in New Variant Covers</a>
+                            <span class="br">9 HOURS AGO</span>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics04">
+                    <li>
+                        <a href="" class="img04 br"></a>
+                        <ul>
+                            <span class="br">Culture & Lifestyle</span>
+                            <a href="" class="br">‘Thor and Loki: Midgard Family Mayhem’ Brings Jeffrey Brown’s Signature Style to the Marvel Universe</a>
+                            <span class="br">11 HOURS AGO</span>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics05">
+                    <li>
+                        <a href="" class="img05 br"></a>
+                        <ul>
+                            <span class="br">Games</span>
+                            <a href="" class="br">Tune into the Disney & Marvel Games Showcase on September 9 Streaming Live from D23 Expo 2022</a>
+                            <span class="br"> Earn Points, Get Rewards</span>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics06">
+                    <li>
+                        <a href="" class="img06 br"></a>
+                        <ul>
+                            <span class="br">Culture & Lifestyle</span>
+                            <a href="" class="br">Dive into the 'Spider-Man: The Spider-Verse Unfolds' Book</a>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics07">
+                    <li>
+                        <a href="" class="img07 br"></a>
+                        <ul>
+                            <span class="br">Comics</span>
+                            <a href="" class="br">Artist Mark Bagley Reflects on His Spider-Man Legacy & More</a>
+                            <span class="br">2 days ago</span>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="comics08">
+                    <li>
+                        <a href="" class="img08 br"></a>
+                        <ul>
+                            <span class="br">Gear</span>
+                            <a href="" class="br">Shop Marvel Must Haves: ‘I Am Groot.’</a>
+                            <span class="br">2 days ago</span>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <aside id="hypebox">
+                <div class="inner">
+                    <h2>THE HYPE BOX</h2>
+                    <p class="side01">Can’t-miss news and updates from </p>
+                    <span class="side02">across the Marvel Universe!</span>
+                    <ul>
+                        <li>
+                            <a href="" class="smallimg01 br"></a>
+                            <ul>
+                                <span class="br">Culture & Lifestyle</span>
+                                <a href="" class="br">Marvel Mission: ‘T.E.S.T. Kitchen’s’ Tonkatsu Torta</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg02 br"></a>
+                            <ul>
+                                <span class="br">Comics</span>
+                                <a href="" class="br">August 10's New Marvel Comics: The Full List</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg03 br"></a>
+                            <ul>
+                                <span class="br">Comics</span>
+                                <a href="" class="br">Spider-Man Writers Unpack
+                                    the Joys of the Spider-Verse
+                                    & All Its Heroes</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg04 br"></a>
+                            <ul>
+                                <span class="br">Gear</span>
+                                <a href="" class="br">World of EPI Reveals 
+                                    New Collectible Doll Line Inspired
+                                    by 'Black Panther: Wakanda Forever'</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg05 br"></a>
+                            <ul>
+                                <span class="br">TV Shows</span>
+                                <a href="" class="br">‘She-Hulk’: Episode 1 — Jennifer Walters vs. Bruce Banner</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg06 br"></a>
+                            <ul>
+                                <span class="br">Gear</span>
+                                <a href="" class="br">Marvel Receives Two Toy of the Year Nominations for 2022</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg07 br"></a>
+                            <ul>
+                                <span class="br">Comics</span>
+                                <a href="" class="br">'Strange' Writer Jed MacKay Breaks Down Doctor Strange's Return</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg08 br"></a>
+                            <ul>
+                                <span class="br">Comics</span>
+                                <a href="" class="br">A New Era of 'Fantastic Four' Begins with Ryan North & Iban Coello</a>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="" class="smallimg09 br"></a>
+                            <ul>
+                                <span class="br">Comics</span>
+                                <a href="" class="br">America Chavez Teams Up with Loki in a New ‘Marvel’s Voices’ Arc</a>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="asidead">
+                    <a href=""></a>
+                    <h2>ADVERTISEMENT</h2>
+                </div>
+            </aside>
+        </div>
+        <div class="inner02">
+            <a href="" class="insider01"></a>
+            <div class="insider02">
+                <h3><a href="">MARVEL INSIDER</a></h3>
+                <h4><a href="">Watch, Earn, Redeem!</a></h4>
+                <span><a href="">Get reward for doing what you already do as a fan.</a></span>
+                <a href="" class="button">JOIN NOW</a>
+                <a href="" class="apply">Terms and Conditions Apply</a>
+            </div>
+        </div>
+    </main>
+    <!-- 하단영역 -->
+    <footer>
+        <div class="inner">
+            <div class="left">
+                <a href="" class="leftimg"><svg viewBox="0 0 36 52" xmlns="http://www.w3.org/2000/svg"><rect fill="#EC1D24" width="100%" height="100%"></rect><path fill="#FEFEFE" d="M31.5 48V4H21.291l-3.64 22.735L14.102 4H4v44h8V26.792L15.577 48h4.229l3.568-21.208V48z"></path></svg></a>
+                <ul class="left01">
+                    <li><a href="">ABOUT MARVEL</a></li>
+                    <li><a href="">HELP/FAQS</a></li>
+                    <li><a href="">CAREERS</a></li>
+                    <li><a href="">INTERNSHIPS</a></li>
+                </ul>
+                <ul class="left02">
+                    <li><a href="">ADVERTISING</a></li>
+                    <li><a href="">DISNEY+</a></li>
+                    <li><a href="">MARVELHQ.COM</a></li>
+                    <li><a href="">REDEEM DIGITAL
+                        COMICS
+                    </a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="box3">
+                    <ul class="right01">
+                        <a href="" class="rightimg br"></a>
+                        <li><a href="" class="br">MARVEL INSIDER</a></li>
+                        <li><a href="" class="br"><span>Get Rewarded for Being a Marvel FAN</span></a></li>
+                    </ul>
+                    <ul class="right02">
+                        <a href="" class="rightimg02 br"></a>
+                        <li><a href="" class="br">MARVEL UNLIMITED</a></li>
+                        <li><a href="" class="br"><span>Access Over 30,000+ Digital Comics</span></a></li>
+                    </ul>
+                </div>
+                <div class="right03">
+                    <p>FOLLOW MARVEL</p>
+                    <ul>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                        <li><a href=""></a></li>
+                    </ul> 
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <ul class="bottom01">
+                <li><a href="">Terms of Use</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Your California Privacy Rights</a></li>
+                <li><a href="">Do Not Sell My Personal Information</a></li>
+                <li><a href="">Children's Online Privacy Policy</a></li>
+                <li><a href="">License Agreement</a></li>
+                <li><a href="">Interest-Based Ads</a></li>
+            </ul>
+            <ul class="bottom02">
+                <li><a href="">Marvel Insider Terms</a></li>
+                <li><a href="">©2022 MARVEL</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
